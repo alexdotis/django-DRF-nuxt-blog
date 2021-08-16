@@ -1,7 +1,7 @@
 # django-drf-nuxtjs-blog
 A complete blog integrated with Django rest-framework (DRF) and Nuxt js
 
-The project is not ready for production. The purpose of this is to highlight the combination of these two powerful frameworks.
+The project is not ready for production. The purpose of this is to show the combination of these two powerful frameworks.
 
 **About project**
 - All authentication system (login, logout, verification email, resend email etc..)
