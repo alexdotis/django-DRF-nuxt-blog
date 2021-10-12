@@ -19,7 +19,7 @@ class Article(models.Model):
         ('Success', 'Success'),
         ('Deny', 'Deny')
     )
-    author = models.ForeignKey(
+    author = models.OneToOneField(
         User, on_delete=models.CASCADE)
     title = models.CharField(_("title"), max_length=100)
     subheading = models.CharField(_("subheading"), max_length=80)
