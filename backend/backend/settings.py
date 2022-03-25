@@ -73,7 +73,6 @@ REST_AUTH_SERIALIZERS = {
 ACCOUNT_ADAPTER = 'core.rest_settings.adapters.EmailAdapter'
 
 
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -149,7 +148,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 CKEDITOR_UPLOAD_PATH = "uploads/"
